@@ -24,3 +24,9 @@ VALUES
 ('Legolas', 10),
 ('Arwen', 9),
 ('Elrond', 5);
+
+INSERT INTO hobbits(hobbitName, personality)
+VALUES
+('Frodo', 'Quiet'),
+('Sam', 'Hopefull'),
+('Pippin', 'Cheerfull');
