@@ -31,8 +31,8 @@ VALUES
 ('Sam', 'Hopefull'),
 ('Pippin', 'Cheerfull');
 
--- SELECT wizardName FROM wizards; (Selects name form wizards table)
--- SELECT * FROM wizards,elves,hobbits; (Selects data from all three tables)
--- SELECT * FROM wizards,elves,hobbits LIMIT 10; (Selects data from all three tables and limits to 10 rows)
--- SELECT * FROM elves ORDER BY speed DESC; (orders incoming data by speed descending order wise)
--- SELECT * FROM elves WHERE speed > 9;
+SELECT wizardName FROM wizards; --Selects name form wizards table
+SELECT * FROM wizards,elves,hobbits; --Selects data from all three tables
+SELECT * FROM wizards,elves,hobbits LIMIT 10; --Selects data from all three tables and limits to 10 rows
+SELECT * FROM elves ORDER BY speed DESC; --orders incoming data by speed descending order wise
+SELECT * FROM elves WHERE speed > 9;
